@@ -98,7 +98,7 @@ const App = () => {
   return (
     <Jumbotron fluid>
       <Container>
-        <h1>Welcome to the React Challenge</h1>
+        <h1 data-testid="h1">Welcome to the React Challenge</h1>
         <p className="small">
           Taken the html structure in the example below (index.html),
           <br />

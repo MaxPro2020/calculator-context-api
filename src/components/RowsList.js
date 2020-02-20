@@ -6,7 +6,7 @@ import AppContext from '../AppContext';
 const RowsList = () => (
   <AppContext.Consumer>
     {(data) => (
-      <ListGroup>
+      <ListGroup data-testid = "listGroup">
         {data.list.map((row, index) => (
           <Row key={index.toString()} row={row} index={index} />
         ))}
