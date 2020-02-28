@@ -1,6 +1,5 @@
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import AddRow from './AddRow';
 import RowsList from './RowsList';
 import AppContext from '../AppContext';
 
